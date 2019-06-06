@@ -178,16 +178,22 @@ img {
   margin: 0 auto;
 }
 header {
-  margin: 24px 0;
+  width: 100%;
+  margin: 24px 0 0 0;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+header div {
+  width: 100%;
+  padding: 0 16%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header nav {
-  max-width: 50%;
+header div nav {
   font-size: 16px;
 }
-header nav a {
+header div nav a {
   text-decoration: none;
   color: black;
   margin-right: 31px;
@@ -205,7 +211,7 @@ header nav a {
   padding: 20px;
 }
 .home .dash {
-  border-top: 2px 2px dashed #C0C0C0;
+  border-top: 2px dashed #C0C0C0;
 }
 .home .welcome-section img {
   margin-bottom: 22px;
